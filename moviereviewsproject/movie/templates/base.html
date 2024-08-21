@@ -5,7 +5,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="{% url 'home' %}">
             {% load static %}
             <img src="{% static 'images/home.png' %}" alt="" width="30" height="24"
                  class="d-inline-block align-text-top"/>
@@ -43,4 +43,7 @@
         <div class="row">
             <div class="text-center p-4">
                 <h4>&copy 2024 Copyright - Santiago Gomez Rueda</h4>
+            </div>    
         </div>
+    </div>
+</footer>
